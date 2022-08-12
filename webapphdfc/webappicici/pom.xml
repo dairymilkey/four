@@ -7,7 +7,9 @@
   <groupId>com.icici</groupId>
   <artifactId>webappicici</artifactId>
   <version>1.0-SNAPSHOT</version>
-
+<packaging>war</packaging>
+  
+  
   <name>webappicici</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
@@ -25,6 +27,11 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+  <groupId>de.pentabyte</groupId>
+  <artifactId>springfox-enum-plugin</artifactId>
+  <version>3.0.0</version>
+</dependency>
   </dependencies>
 
   <build>
